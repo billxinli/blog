@@ -1,0 +1,39 @@
+development:
+  adapter: mysql2
+  database: blog_dev
+  host: 127.0.0.1
+  pool: 5
+  timeout: 5000
+  encoding: utf8
+  username: ruby
+  password: ruby
+
+test:
+  adapter: mysql2
+  database: blog_test
+  host: 127.0.0.1
+  pool: 5
+  timeout: 5000
+  encoding: utf8
+  username: ruby
+  password: ruby
+
+production:
+  adapter: mysql2
+  database: blog_prod
+  host: 127.0.0.1
+  pool: 5
+  timeout: 5000
+  encoding: utf8
+  username: blog
+  password: blog
+  
+staging:
+  adapter: mysql2
+  database: blog_stage
+  host: 127.0.0.1
+  pool: 5
+  timeout: 5000
+  encoding: utf8
+  username: blog
+  password: blog
