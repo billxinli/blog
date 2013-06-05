@@ -14,3 +14,4 @@ end
 gem 'jquery-rails'
 # Deploy with Capistrano
 gem 'capistrano'
+gem 'rvm-capistrano'

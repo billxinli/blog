@@ -29,23 +29,13 @@
 </head>
 <body>
 
-
-<!-- Nav Bar -->
-
-
-<!-- End Nav -->
-
-
-<!-- Main Page Content and Sidebar -->
-
 <div class="content">
   <%= yield %>
+  <pre>
+  Ruby: <%= RUBY_VERSION %>
+    Config::CONFIG <%= Config::CONFIG.to_yaml %>
+</pre>
 </div>
-
-<!-- End Main Content and Sidebar -->
-
-
-<!-- Footer -->
 
 <footer class="row">
   <div class="twelve columns">
